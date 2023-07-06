@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+    <h1>♬ Sorting Visualizer ♬</h1>
+    <div id="container"></div>
+
+    <hr>
+
+    <div class = "btns">
+        <button class = "initbutton " onClick="init()">Generate Array</button>
+
+        <div class="dropdown">
+            <button class="dropbtn">Choose a Sorting Algorithm</button>
+            <div class="dropdown-content">
+                <a onclick="sort('bubble')">Bubble Sort</a>
+                <a onclick="sort('selection')">Selection Sort</a>
+                <a onclick="sort('insertion')">Insertion Sort</a>
+                <a onclick="sort('quick')">Quick Sort</a>
+                <a onclick="sort('heap')">Heap Sort</a>
+              
+            </div>
+          </div> 
+    
+
+      
+    </div>
+    
+   
+
+    <script src="script.js"></script>
+</body>
+
+</html>
