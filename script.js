@@ -59,7 +59,7 @@ function animate(swaps){
 
     setTimeout(function(){
         animate(swaps);
-    },1000);
+    },400);
 }
 
 
